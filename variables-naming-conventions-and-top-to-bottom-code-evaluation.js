@@ -25,8 +25,10 @@ Things to reflect on:
 */
 
 let userName = "Alice";
+let itemName = "apples"
 let numberOfItems = 5;
+let currencyType = "$"
 let moneyValue = 20;
-let userTransaction = userName + " bought " + numberOfItems + " items for $" + moneyValue + ".";
+let userTransaction = userName + " bought " + numberOfItems + " " + itemName + " for " + currencyType + moneyValue + ".";
 
 console.log(userTransaction);
